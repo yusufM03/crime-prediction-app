@@ -1,3 +1,6 @@
+Here's the corrected version of your `README.md` with a few enhancements for clarity and formatting:
+
+```markdown
 # **NYC Crime Probability Predictor**
 
 ## **Overview**
@@ -11,6 +14,9 @@ The NYC Crime Probability Predictor is a machine learning-powered application de
 ## **Why This Project?**
 Crime prediction has always been a challenging task due to its dynamic nature. This project bridges the gap between complex data and actionable insights, enabling users to make informed decisions by understanding crime trends in NYC.
 
+## **DEMO**
+![alt text](assets/demo.png)
+
 ---
 
 ## **Project Structure**
@@ -19,8 +25,7 @@ Crime prediction has always been a challenging task due to its dynamic nature. T
 .
 ├── App              
 ├── notebooks                 
-│   ├── EDA.ipynb             # Exploratory Data Analysis
-│   └── ModelTraining.ipynb   # Data preparation and machine learning model
+│   └── PrepareData&ModelTraining.ipynb   # Data preparation and machine learning model
 ├── docs                      # Project documentation
 └── README.md
 ```
@@ -39,7 +44,7 @@ The project uses the **NYPD Complaint Data Historic Dataset**, which spans over 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repo/nyc-crime-predictor.git
+git clone https://github.com/yusufM03/crime-prediction-app.git
 ```
 
 ### 2. Install Dependencies
@@ -48,19 +53,26 @@ pip install -r requirements.txt
 ```
 
 ### 3. Run the App
-Start :
+Start the app:
 ```bash
 cd App
-python app.py
+python stream.py
 ```
+
 ---
 
 ## **Technologies Used**
-- **Machine Learning**: Scikit-learn, Pandas, Numpy
+
+- **Machine Learning**: Scikit-learn, Pandas, Numpy, XGBoost
+- **Web Framework**: Streamlit
+- **Data Visualization**: Matplotlib, Seaborn, Folium, Streamlit-Folium
 
 ---
+
 ## **Paper**
-To document our work, we wrote a research paper that is included in the repo.
+To document our work, we wrote a research paper that is included in the repo.  
+[Download the Paper](Doc/paper.pdf)
+
 ---
 
 ## **Contributing**
@@ -77,3 +89,4 @@ We welcome contributions! Feel free to open an issue or submit a pull request.
 
 ## **Contact**
 For questions or feedback, reach out to [Youssef Makhlouf](mailto:youssef.makhlouf@supcom.tn).
+```
