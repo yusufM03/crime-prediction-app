@@ -1,6 +1,3 @@
-Here's the corrected version of your `README.md` with a few enhancements for clarity and formatting:
-
-```markdown
 # **NYC Crime Probability Predictor**
 
 ## **Overview**
