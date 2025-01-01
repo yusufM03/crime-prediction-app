@@ -1,0 +1,8 @@
+xgboost
+folium
+streamlit-folium
+pandas
+streamlit
+joblib
+matplotlib
+seaborn
